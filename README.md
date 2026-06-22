@@ -14,7 +14,11 @@ OKRA Monitor 固件，运行在 CYD（Cheap Yellow Display）2.8" 320×240 ILI93
 
 ## 构建与烧录
 
-需要 PlatformIO CLI（`pip install platformio` 或 VS Code 的 PlatformIO 插件）。
+> **在线烧录**：无需本地编译，打开烧录页面：<https://okraworks.cn/okramonitor_install>，按页面提示通过 USB 一键烧录。
+
+不想自己编译的话用上面的在线烧录即可。需要在本地编译的，继续往下看。
+
+需要 PlatformIO CLI（`pip install platformio` 或 VS Code 的 PlatformIO 插件，我使用过的是后者）。
 
 ```bash
 pio pkg install              # 安装依赖库
