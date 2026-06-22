@@ -1,0 +1,17 @@
+# PlatformIO 构建产物
+.pio/
+
+# macOS
+.DS_Store
+
+# IDE（由 PlatformIO VS Code 插件首次打开时自动生成）
+.vscode/
+*.code-workspace
+
+# 构建输出
+build/
+*.elf
+*.map
+
+# update_firmware.sh 的输出目录（一般不提交编译产物，按需取消注释）
+# firmware/
