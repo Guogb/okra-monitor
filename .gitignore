@@ -13,5 +13,5 @@ build/
 *.elf
 *.map
 
-# update_firmware.sh 的输出目录（一般不提交编译产物，按需取消注释）
-# firmware/
+# update_firmware.sh 的输出目录（不提交编译产物）
+firmware/
